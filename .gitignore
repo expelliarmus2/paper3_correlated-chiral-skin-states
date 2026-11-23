@@ -1,0 +1,23 @@
+# LaTeX temporary build files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.nav
+*.snm
+*.vrb
+*.dep
+# Editor and OS temporary files
+*.bak
+*.swp
+*~
+Thumbs.db
+.DS_Store
+~$*
