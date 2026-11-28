@@ -1,0 +1,22 @@
+审稿材料索引
+
+1. 上轮审稿意见及逐条回复
+   文件：reply0512.docx
+   用户确认来源：E:\doctor\Paper\paper3_ChiralSkinCorrelated\20260501\reply0512.docx
+   核对日期：2026-11-28
+   SHA-256：50CD0797032D24BE9C8DB913B2144FA10C45F660352F428220F2AA9ADD3EA31E
+   与本目录及 manuscript/reply0512.docx 完全一致，已纳入 main 分支，无需重复复制。
+   后续修订应结合此文件核对上轮问题及已承诺的修改。
+
+2. 本轮审稿报告
+   文件：report_AM_npj.pdf
+   包含 11 条 Major Comments，是当前修订任务的正式依据。
+
+3. 辅助建议
+   文件：Gemini_Response_Reviewer.pdf
+   属于回复建议与草稿，不是正式审稿意见；其中未经计算验证的结论不能直接作为回复证据。
+
+4. 当前修订基准
+   主稿：manuscript/Hybrid_Chiral_Skin_Correlated_States.tex
+   代码说明：code/README.md
+   manuscript 中的历史 reply 文档不代表本轮回复已经完成。
