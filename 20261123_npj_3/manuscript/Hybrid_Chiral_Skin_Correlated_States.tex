@@ -590,8 +590,8 @@ non-Hermitian dynamics to address the MQC framework comprehensively.}
 	{$\varepsilon(\rho) = \sum_{\beta} M_{i, \beta} \rho M_{i, \beta}^{\dagger}$, where $\rho$ is the density matrix of the fermionic system.}
 	{The generalized measurements on the $i$th site are defined as}
 	\begin{align}
-		{\color{red} M_{i,\pm}} &{\color{red} = \sqrt{\frac{1}{2+(e^{\gamma \mathrm{d} t} - e^{-\gamma \mathrm{d} t})^2}} (1 + (e^{\pm \gamma \mathrm{d} t}-1) \hat{c}_i^{\dagger} \hat{c}_i),}\\
-		{\color{red} M_{i,0}} &{\color{red} = \sqrt{\frac{(e^{\gamma \mathrm{d} t} - e^{-\gamma \mathrm{d} t})^2}{2+(e^{\gamma \mathrm{d} t} - e^{-\gamma \mathrm{d} t})^2}} \hat{c}_i^{\dagger},}
+		{ M_{i,\pm}} &{ = \sqrt{\frac{1}{2+(e^{\gamma \mathrm{d} t} - e^{-\gamma \mathrm{d} t})^2}} (1 + (e^{\pm \gamma \mathrm{d} t}-1) \hat{c}_i^{\dagger} \hat{c}_i),}\\
+		{ M_{i,0}} &{ = \sqrt{\frac{(e^{\gamma \mathrm{d} t} - e^{-\gamma \mathrm{d} t})^2}{2+(e^{\gamma \mathrm{d} t} - e^{-\gamma \mathrm{d} t})^2}} \hat{c}_i^{\dagger},}
 	\end{align}
 	{which satisfy the trace-preserving condition $\sum_{\beta} M_{i,\beta}^{\dagger} M_{i,\beta}=\mathrm{I}$. Note that the measurement interval $\mathrm{d}t$ is a parameter in the generalized measurements. The parameter of measurements should satisfy $\gamma \mathrm{d} t \ll 1$.}
 	
@@ -610,7 +610,7 @@ $M_{i,+}$ for gain dynamics yields $M_{i,+} \vert \psi \rangle/\Vert M_{i,+}
 	
 	{The realization of generalized measurements $\{M_{i,\beta}, \beta=\pm,0\}$ can be simplified: measurements $M_{i,+}$ and measurements $M_{i,-}$ can be realized through one ancillary qubit. We first apply a two-qubit unitary gate to the qubit and the ancillary qubit, which is}
 	\begin{equation}
-		{\color{red} U_{\text{M}}} = {\color{red} \begin{pmatrix}
+		{ U_{\text{M}}} = { \begin{pmatrix}
 		  1 & 0 & 0 & 0\\
 		  0 & e^{-\gamma \dif t} & \sqrt{1-e^{-2 \gamma \dif t}} & 0\\
 		  0 & -\sqrt{1-e^{-2 \gamma \dif t}} & e^{-\gamma \dif t} & 0\\
