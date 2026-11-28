@@ -1,0 +1,44 @@
+{
+  "sizes": [
+    3,
+    4
+  ],
+  "time": 10.0,
+  "U": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    1.75,
+    2.0
+  ],
+  "cases": [
+    [
+      "topological_gain",
+      -1.5,
+      0.2
+    ],
+    [
+      "trivial_gain",
+      -2.5,
+      0.2
+    ],
+    [
+      "topological_hermitian",
+      -1.5,
+      0.0
+    ]
+  ],
+  "numpy": "2.3.5",
+  "scipy": "1.18.1",
+  "validation": {
+    "hermiticity": true,
+    "noninteracting_pair_spectrum_max_error": 9.349633632383858e-15,
+    "product_entropy": 0,
+    "bell_entropy": 0.6931471805599453
+  },
+  "note": "Finite-time conditional states, not assumed stationary. RMS is not an exponential localization length. Spatial entropy is not particle entanglement or proof of topological protection."
+}
