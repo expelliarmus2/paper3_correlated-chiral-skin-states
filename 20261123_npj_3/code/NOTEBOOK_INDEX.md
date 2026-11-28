@@ -1,0 +1,151 @@
+# Notebook 单元索引
+
+单元编号从 1 开始；仅索引源码，不执行单元。按标题、定义及图片导出位置定位。
+
+## MeasureNonhermitianSkin/MBPumpLocalization/SingleExcitation.ipynb
+- 单元 1：配图网站，http://lcpmgh.com/colors/
+- 单元 2：def Calculate_IPR(state): / # smaller than 1, skin state have O(1/Ly) but corner state have O(1) 'IPR' / def Plot_Lattice1(state, num_xsite, num_ysite, num_sub, pattern='2D', cnorm=None): / # state = np.array(state) / # plot several eigenstate.
+- 单元 3：# 参数设置 / # 初态 (1,1) / # 计算所有时刻的波函数和概率密度 / # 创建动画 / def update(frame):
+- 单元 4：# eigvec = eigvec[:, np.argsort(np.abs(eigval.real))] / # eigval = eigval[np.argsort(np.abs(eigval.real))] / # plt.rcParams.update({ / #     'lines.linewidth': 2,      # 默认线宽 / #     'lines.markersize': 10,    # 默认标记大小
+- 单元 5：## Chiral skin
+- 单元 6：# the results of non-Hermitian Hamiltonian. / # the results of the first scheme. / #plt.figure(figsize=(4, 4)) / #ax[0, 1].set_ylabel('Imaginary Part', fontsize=12) / # plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.15),fontsize=10,ncol=2)
+- 单元 7：## 画等间距的⚪
+- 单元 8：# 创建画布和坐标轴 / def ShowTwoExcitationPlot(ax, fill_number=2): / # 计算起始坐标（基于中心对称） / # start_x = -(cols-1)*spacing / 2 / # start_y = -(rows-1)*spacing / 2
+- 单元 9：## 线路的时间演化的
+- 单元 10：#colors = ['#2D8875', '#52AADC', '#7C7979', '#7FABD1', '#91ccc0', '#963B79', '#97D0C5', '#B5CE4E', '#BD7795', '#C7C1DE', '#C89736', '#D75B4E', '#EC6E66', '#EEB6D4', '#F39865', '#F7AC53'] / # 非厄米的结果 / # QWZ1.add_interaction_inter(U) / # results, result_popu, prob_list = circuit_qwz.evolve(t_list) / # for i in range(len(circuit_qwz.basis)//2):
+- 单元 11：#colors = ['#2D8875', '#52AADC', '#7C7979', '#7FABD1', '#91ccc0', '#963B79', '#97D0C5', '#B5CE4E', '#BD7795', '#C7C1DE', '#C89736', '#D75B4E', '#EC6E66', '#EEB6D4', '#F39865', '#F7AC53'] / # 非厄米的结果 / # QWZ1.add_interaction_inter(U) / # results, result_popu, prob_list = circuit_qwz.evolve(t_list) / # for i in range(len(circuit_qwz.basis)//2):
+- 单元 12：# 将上面的数据画出来 / # 设置全局字体大小和刻度大小 / # 定义颜色和标记样式 / # markers = ['o', 's', 'D'] / #000000, #32183C, #36659E, #40B7AD, #A21A54, #E7724F
+- 单元 13：#colors = ['#2D8875', '#52AADC', '#7C7979', '#7FABD1', '#91ccc0', '#963B79', '#97D0C5', '#B5CE4E', '#BD7795', '#C7C1DE', '#C89736', '#D75B4E', '#EC6E66', '#EEB6D4', '#F39865', '#F7AC53'] / # results, result_popu, prob_list = circuit_qwz.evolve(t_list) / # for i in range(len(circuit_qwz.basis)//2): / #     ax[0].plot(t_list, results[0, i], 'o-') / #     ax[1].plot(t_list, results[1, i], 'o-')
+- 单元 14：## 两体$\mathcal{P}$
+- 单元 15：# 创建颜色映射 / # print(len(record_popu_bigger_t20_gamma0[0])) / # if record_popu_bigger[10,i]>500: / #     print(i%(2*num_y),i) / # # 看是哪些比较局域。
+- 单元 16：# 创建颜色映射 / # color_light = ['#85C3DC', '#8DAFAB', '#DAC6CF', '#E2C098'] / # A_lineshape = '--' / # B_lineshape = '--' / # print(len(record_popu_bigger_t20_gamma0[0]))
+- 单元 17：# 创建颜色映射 / # print(len(record_popu_bigger_t20_gamma0[0])) / # if record_popu_bigger[10,i]>500: / #     print(i%(2*num_y),i) / # A 格点用红色
+- 单元 18：# 创建颜色映射 / # color_light = ['#85C3DC', '#8DAFAB', '#DAC6CF', '#E2C098'] / # print(len(record_popu_bigger_t20_gamma0[0])) / # if record_popu_bigger[10,i]>500: / #     print(i%(2*num_y),i)
+- 单元 19：## 双激发本征能谱
+- 单元 20：# 两体的本征能谱。 / # np.savez('ThreeExcitationEig%d.npz'%num_x, eigval_NH=eigval, eigval_NHMany=eigval2, eigvec_NH=eigvec, eigvec_NHMany=eigvec2) / # color_r = '#B22222' / # color_b = '#000080' / # 设置y轴为科学计数法
+- 单元 21：# 设置y轴为科学计数法 / #ax[row, col].ticklabel_format(style='sci', axis='y', scilimits=(0,0)) / # 获取当前子图的y轴偏移文本 / # 设置字体大小为12 / # 设置字体大小为12
+- 单元 22：# 设置y轴为科学计数法 / #ax[row, col].ticklabel_format(style='sci', axis='y', scilimits=(0,0)) / # 获取当前子图的y轴偏移文本 / # 设置字体大小为12 / # 设置字体大小为12
+- 单元 23：## 三激发
+- 单元 24：# np.savez('ThreeExcitationEig%d.npz'%num_x, eigval_NH=eigval, eigval_NHMany=eigval2, eigvec_NH=eigvec, eigvec_NHMany=eigvec2) / # color_r = '#B22222' / # color_b = '#000080' / # 可以找出chiral skin mode / # 设置y轴为科学计数法
+- 单元 25：# ax[row, col].grid(True, linestyle='--', alpha=0.7) / # 设置y轴为科学计数法 / #ax[row, col].ticklabel_format(style='sci', axis='y', scilimits=(0,0)) / # 获取当前子图的y轴偏移文本 / # 设置字体大小为12
+- 单元 26：# ax[row, col].grid(True, linestyle='--', alpha=0.7) / # 设置y轴为科学计数法 / #ax[row, col].ticklabel_format(style='sci', axis='y', scilimits=(0,0)) / # 获取当前子图的y轴偏移文本 / # 设置字体大小为12
+- 单元 27：# ax[row, col].grid(True, linestyle='--', alpha=0.7) / # 设置y轴为科学计数法 / #ax[row, col].ticklabel_format(style='sci', axis='y', scilimits=(0,0)) / # 获取当前子图的y轴偏移文本 / # 设置字体大小为12
+- 单元 28：def tril_indices_3d(num_bits): / # k=1的秦广 / # positions = [] / # for i in range(1, num_bits): / #     for j in range(0, i):
+- 单元 29：# 获取 colormap（不含 alpha） / def set_axes_equal(ax): / # 背景颜色 / #设置视角，模拟 Plotly 默认视角 和距离 / # 生成坐标网格（只计算非零点的坐标）
+- 单元 30：def set_axes_equal(ax): / # 背景颜色 / #设置视角，模拟 Plotly 默认视角 和距离 / # ax[0, 0].set_xlabel('Re(E)',fontsize=fontsize, labelpad=labelpad) / # for row in range(2):
+- 单元 31：def set_axes_equal(ax): / # 背景颜色 / #设置视角，模拟 Plotly 默认视角 和距离 / # ax[0, 0].set_xlabel('Re(E)',fontsize=fontsize, labelpad=labelpad) / # for row in range(2):
+- 单元 32：#print(temp_state[popu_indice[k]]) / # 获取当前子图的y轴偏移文本 / # 设置字体大小为12 / # ax[1].colorbar(cmap=color_string) / fig.savefig('DataPicture/SI_ThreeExcitationSize8.pdf', bbox_inches='tight') # ,
+- 单元 33：## 补充演化对应的能谱和本征态
+- 单元 34：# ax[0, 1].get_shared_y_axes().join(ax[0,0], ax[0,1]) # 上面两个轴共享y轴 / # ax[row, col].grid(True, linestyle='--', alpha=0.7) / # 设置y轴为科学计数法 / #ax[row, col].ticklabel_format(style='sci', axis='y', scilimits=(0,0)) / # 获取当前子图的y轴偏移文本
+- 单元 35：## 当耗散不再边界的时候
+- 单元 36：# 1.非厄米 / # QWZ2.add_interaction_inter(1.) / #print(temp_state[popu_indice[k]]) / # 2.非厄米+多体 / #print(temp_state[popu_indice[k]])
+- 单元 37：# 当是耗散的时候是否存在对称性？就是直接厄密共轭。 / # 1.非厄米 / # QWZ2.add_interaction_inter(1.) / #print(temp_state[popu_indice[k]]) / # 2.非厄米+多体
+- 单元 38：## 当本身不是拓扑绝缘体的时候
+- 单元 39：# 设置y轴为科学计数法 / #ax[row, col].ticklabel_format(style='sci', axis='y', scilimits=(0,0)) / # 获取当前子图的y轴偏移文本 / # 设置字体大小为12 / # 设置字体大小为12
+- 单元 40：# 设置y轴为科学计数法 / #ax[row, col].ticklabel_format(style='sci', axis='y', scilimits=(0,0)) / # 获取当前子图的y轴偏移文本 / # 设置字体大小为12 / # 设置字体大小为12
+- 单元 41：## 当相互作用是intra的时候
+- 单元 42：# 设置y轴为科学计数法 / #ax[row, col].ticklabel_format(style='sci', axis='y', scilimits=(0,0)) / # 获取当前子图的y轴偏移文本 / # 设置字体大小为12 / # 设置字体大小为12
+- 单元 43：##  三合一的对，对比突出chiral skin-many body induced localized states
+- 单元 44：# ax[row, col].grid(True, linestyle='--', alpha=0.7) / # 设置y轴为科学计数法 / #ax[row, col].ticklabel_format(style='sci', axis='y', scilimits=(0,0)) / # 获取当前子图的y轴偏移文本 / # 设置字体大小为12
+- 单元 45：# with np.load('TwoExcitationEig9_intra.npz') as files: / #     eigval_NH = files['eigval_NH'] / #     eigvec_NH = files['eigvec_NH'] / #     eigval_NHMany = files['eigval_NHMany'] / #     eigvec_NHMany = files['eigvec_NHMany']
+- 单元 46：# with np.load('TwoExcitationEig9_intra.npz') as files: / #     eigval_NH = files['eigval_NH'] / #     eigvec_NH = files['eigvec_NH'] / #     eigval_NHMany = files['eigval_NHMany'] / #     eigvec_NHMany = files['eigvec_NHMany']
+- 单元 47：# intra interaction / # with np.load('TwoExcitationEig9.npz') as files: / #     eigval_NH = files['eigval_NH'] / #     eigvec_NH = files['eigvec_NH'] / #     eigval_NHMany_inter = files['eigval_NHMany']
+- 单元 48：## Correlation Function
+- 单元 49：# 设置全局参数 / # 创建画布 / # 子图标题和数据 / # 统一颜色范围 / # 科学计数法格式化器
+- 单元 50：# 旋转90度 / # 旋转90度 / # plt.scatter(np.arange(1,num_x+1, 1), rotated_data1[:,1], facecolors='none', edgecolors='blue', s=50, marker='D') / # plt.plot(np.arange(1,2*num_x+1, 1),rotated_data1[-2], 'gs-',label='NotTopo2',fillstyle='none', markersize=14) / # plt.scatter(np.arange(1,num_x+1, 1), rotated_data2[:,1], facecolors='none', edgecolors='blue', s=50)
+- 单元 51：# 不同尺寸，上面的曲线如何变化。 / # 旋转90度 / # 旋转90度 / # plt.plot(np.arange(1,2*num_x+1, 1),rotated_data1[-2], 'gs-',label='NotTopo2',fillstyle='none', markersize=14) / # plt.scatter(np.arange(1,num_x+1, 1), rotated_data2[:,1], facecolors='none', edgecolors='blue', s=50)
+- 单元 52：## 当是耗散非厄米哈密顿量的时候
+- 单元 53：# 设置y轴为科学计数法 / #ax[row, col].ticklabel_format(style='sci', axis='y', scilimits=(0,0)) / # 获取当前子图的y轴偏移文本 / # 设置字体大小为12 / # 设置字体大小为12
+- 单元 54：## 3D system
+- 单元 55：# 设置y轴为科学计数法 / #ax[row, col].ticklabel_format(style='sci', axis='y', scilimits=(0,0)) / # 获取当前子图的y轴偏移文本 / # 设置字体大小为12 / # 设置字体大小为12
+- 单元 56：# 设置y轴为科学计数法 / #ax[row, col].ticklabel_format(style='sci', axis='y', scilimits=(0,0)) / # 获取当前子图的y轴偏移文本 / # 设置字体大小为12 / # 设置字体大小为12
+- 单元 57：# with np.load('3DCSTI_Spectrum_x3_y3_z6.npz') as files: / #     eigval_NH = files['eigval_NH'] / #     eigvec_NH = files['eigvec_NH'] / #     eigval_NHMany = files['eigval_NHMany'] / #     eigvec_NHMany = files['eigvec_NHMany']
+- 单元 58：## 更大系统的，双激发的本征态，Lanzcos方法。
+- 单元 59：# ax[0].scatter(eigval.real, eigval.imag) / # ax[1].plot(np.abs(files['eigvec_NHMany%d'%(L_list[i])][:][:,-1])**2)   # eigenstate / # 画粒子数算符的 / # cbar2.ax.tick_params(axis='both', which='major', labelsize=labelsize) / # for i in range(len(L_list)):
+- 单元 60：# eigval2, eigvec2 = np.linalg.eig(hamiltonian)  # 大概40min / # hamiltonian_sparse = scipy.sparse.coo_matrix(hamiltonian) / # 一次的结果是对的，一次不对
+- 单元 61：# eigval2, eigvec2 = np.linalg.eig(hamiltonian)  # 大概40min / # hamiltonian_sparse = scipy.sparse.coo_matrix(hamiltonian)
+- 单元 62：# ax[0].scatter(eigval.real, eigval.imag) / # ax[1].plot(np.abs(files['eigvec_NHMany%d'%(L_list[i])][:][:,-1])**2)   # eigenstate / # 画粒子数算符的 / # cbar2.ax.tick_params(axis='both', which='major', labelsize=labelsize) / # plt.subplots_adjust(
+- 单元 63：# color_string = ['#80D0C3', '#9EAAC4', '#A6DDEA', '#F3A59A', '#F9CDBF'] / fig.savefig('DataPicture/SI_Comp1.pdf') / fig.savefig('DataPicture/SI_Comp2.pdf') / # im1 = ax[1].imshow(popu_NHMany.reshape(L_list[i], 2*L_list[i]), origin='lower', cmap=color_string) / # fig.savefig('DataPicture/Fig_SI.pdf')
+- 单元 64：## 不同系统尺寸的Hybrid chiral skin correlated state
+- 单元 65：# files = h5py.File('TwoExcitationLargerSpectrum.h5', 'r') / # ax[0].scatter(eigval.real, eigval.imag) / # ax[1].plot(np.abs(files['eigvec_NHMany%d'%(L_list[i])][:][:,-1])**2)   # eigenstate / # 画粒子数算符的 / # cbar2.ax.tick_params(axis='both', which='major', labelsize=labelsize)
+- 单元 66：### 不能动，数据用图。 / # ax[0].scatter(eigval.real, eigval.imag) / # ax[1].plot(np.abs(files['eigvec_NHMany%d'%(L_site)][:][:,-1])**2)   # eigenstate / # 画粒子数算符的 / # ax[1].set_xticks(ticks=[4,7,10], labels=['3A','4B','6A'])
+
+## unclassified/exploratory_notebooks/ManyBodyQWZ.ipynb
+- 单元 1：### 不同时间，演化的末态。
+- 单元 4：# 需要如何看一下本征谱长什么样子？
+- 单元 5：### 正负相互作用本征能谱的对比。9*9的数据不能动。
+- 单元 6：# QWZ2.add_interaction_inter(1.) / #print(temp_state[popu_indice[k]]) / #print(temp_state[popu_indice[k]])
+- 单元 7：# QWZ2.add_interaction_inter(1.) / #print(temp_state[popu_indice[k]]) / #print(temp_state[popu_indice[k]])
+- 单元 8：# QWZ2.add_interaction_inter(1.) / #print(temp_state[popu_indice[k]]) / #print(temp_state[popu_indice[k]])
+- 单元 9：# 1.非厄米 / # QWZ2.add_interaction_inter(1.) / #print(temp_state[popu_indice[k]]) / # 2.非厄米+多体 / #print(temp_state[popu_indice[k]])
+- 单元 10：### 耗散并不止加在边界，能否诱导不同的激发。
+- 单元 11：# # 1.非厄米 / # QWZ2 = ParticleConservedSystem(num_x, num_y, 2) / # QWZ2.add_onsite_term(-1.5) / # QWZ2.add_NH(0.2, which_dissi=which_y_dissi) / # QWZ2.add_xhopping_term()
+- 单元 12：# 1.非厄米 / # QWZ2.add_interaction_inter(1.) / #print(temp_state[popu_indice[k]]) / # 2.非厄米+多体 / #print(temp_state[popu_indice[k]])
+- 单元 13：# 对于不是拓扑绝缘体或者说是不存在chiral skin的。 / # 1.非厄米 / # QWZ2.add_interaction_inter(1.) / #print(temp_state[popu_indice[k]]) / # 2.非厄米+多体
+- 单元 14：# 1.非厄米 / # QWZ2.add_interaction_inter(1.) / #print(temp_state[popu_indice[k]]) / # 2.非厄米+多体 / #print(temp_state[popu_indice[k]])
+- 单元 15：# 1.非厄米 / # QWZ2.add_interaction_inter(1.) / #print(temp_state[popu_indice[k]]) / # 2.非厄米+多体 / #print(temp_state[popu_indice[k]])
+- 单元 16：# 1.非厄米 / # QWZ2.add_interaction_inter(1.) / #print(temp_state[popu_indice[k]]) / # 2.非厄米+多体 / #print(temp_state[popu_indice[k]])
+- 单元 17：### 存在耗散相互作用的时候
+- 单元 18：# 当是耗散的时候是否存在对称性？就是直接厄密共轭。 / # 1.非厄米 / # QWZ2.add_interaction_inter(1.) / #print(temp_state[popu_indice[k]]) / # 2.非厄米+多体
+- 单元 19：### 三体
+- 单元 20：# QWZ2.add_interaction_inter(1.) / #print(temp_state[popu_indice[k]]) / #print(temp_state[popu_indice[k]])
+- 单元 21：# QWZ2.add_interaction_inter(1.) / #print(temp_state[popu_indice[k]]) / #print(temp_state[popu_indice[k]]) / # 176min
+- 单元 22：# QWZ2.add_interaction_inter(1.) / # eigval, eigvec = np.linalg.eig(hamiltonian) / #print(temp_state[popu_indice[k]]) / # eigval2, eigvec2 = np.linalg.eig(hamiltonian)  # 大概40min / #print(temp_state[popu_indice[k]])
+- 单元 23：# eigval2, eigvec2 = np.linalg.eig(hamiltonian)  # 大概40min / #print(temp_state[popu_indice[k]]) / # np.savez('ThreeExcitationEig%d.npz'%num_x, eigval_NH=eigval, eigval_NHMany=eigval2, eigvec_NH=eigvec, eigvec_NHMany=eigvec2) / # ax[0].scatter(eigval.real, eigval.imag) / # ax[0].scatter(eigval[-1].real, eigval[-1].imag, color='r', s=100, marker='x')
+- 单元 24：## intra
+- 单元 25：# QWZ2.add_interaction_inter(1.) / #print(temp_state[popu_indice[k]]) / #print(temp_state[popu_indice[k]])
+- 单元 26：# QWZ2.add_interaction_inter(1.) / #print(temp_state[popu_indice[k]]) / #print(temp_state[popu_indice[k]])
+
+## unclassified/exploratory_notebooks/NumericalChiral_22.ipynb
+- 单元 2：def Calculate_IPR(state): / # smaller than 1, skin state have O(1/Ly) but corner state have O(1) 'IPR' / def Plot_Lattice1(state, num_xsite, num_ysite, num_sub, pattern='2D', cnorm=None): / # state = np.array(state) / # plot several eigenstate.
+- 单元 3：### 不同尺寸
+- 单元 4：#Plot_Lattice1(eigvec[:, 0], num_xsite, num_ysite, 2, pattern='2D')#, cnorm=vnorm) / # 画出所有本征态 / # fig, ax = plt.subplots(1,8, figsize=(20, 3)) / # vnorm = mpl.colors.Normalize(vmin=0.2, vmax=0.3) / # for i in range(8):
+- 单元 5：# 耗散类似于加在最右边的边界的。 / # 计算所有数据的最小值和最大值 / # 创建一个 ScalarMappable 对象用于 colorbar / # 添加 colorbar
+- 单元 6：# 计算所有数据的最小值和最大值 / # 创建一个 ScalarMappable 对象用于 colorbar / # 在每个格子中心添加数值文本 / # 添加 colorbar
+- 单元 7：### 随时间的演化
+- 单元 8：def temp_fun(gamma,delta_t): / #gamma = -0.2 / #initial_state = np.ones(2*num_xsite*num_ysite)/np.sqrt(2*num_xsite*num_ysite) / #delta_t = 0.5 / # 创建一个 ScalarMappable 对象用于 colorbar
+- 单元 9：def temp_fun(gamma,delta_t): / #gamma = -0.2 / #initial_state = np.ones(2*num_xsite*num_ysite)/np.sqrt(2*num_xsite*num_ysite) / #initial_state = np.array([1,0,0,0,0,0,0,0]) / #delta_t = 0.5
+- 单元 10：def temp_fun_IPR(gamma,delta_t): / #gamma = -0.2 / # initial_state = np.array([1,1,0,0,0,0,0,0])/np.sqrt(2) / # initial_state = np.ones(8)/np.sqrt(8) / #delta_t = 0.5
+- 单元 11：### 2*3的结构
+- 单元 12：#plt.plot(eigval.real, eigval.imag, 'o', label='Eigenvalues', markersize=8, color='blue') / # 突出显示基态 / # 添加 colorbar / # 计算所有数据的最小值和最大值 / # 创建一个 ScalarMappable 对象用于 colorbar
+- 单元 14：### 4 * 2结构
+- 单元 15：#plt.plot(eigval.real, eigval.imag, 'o', label='Eigenvalues', markersize=8, color='blue') / # color_string = 'plasma'  # 'gist_heat_r' / # 突出显示基态 / # 添加 colorbar / # 计算所有数据的最小值和最大值
+- 单元 16：def temp_fun(gamma,delta_t): / #gamma = -0.2 / #initial_state = np.ones(2*num_xsite*num_ysite)/np.sqrt(2*num_xsite*num_ysite) / #initial_state = np.array([1,1,0,0,1,1,0,0])/2 / #initial_state[0], initial_state[1] = 1/np.sqrt(2), 1/np.sqrt(2)
+- 单元 17：def temp_fun_Total(initial_state, gamma,delta_t): / #gamma = -0.2 / #initial_state = np.ones(2*num_xsite*num_ysite)/np.sqrt(2*num_xsite*num_ysite) / #initial_state = np.array([1,1,0,0,1,1,0,0])/2 / #initial_state[0], initial_state[1] = 1/np.sqrt(2), 1/np.sqrt(2)
+- 单元 18：def temp_fun_Evolve(gamma,total_t): / #gamma = -0.2 / #initial_state = np.ones(2*num_xsite*num_ysite)/np.sqrt(2*num_xsite*num_ysite) / #initial_state = np.array([1,1,0,0,1,1,0,0])/2 / #initial_state[0], initial_state[1] = 1/np.sqrt(2), 1/np.sqrt(2)
+- 单元 19：def temp_fun_Evolve(gamma,total_t): / #gamma = -0.2 / #initial_state = np.ones(2*num_xsite*num_ysite)/np.sqrt(2*num_xsite*num_ysite) / #initial_state = np.array([1,1,0,0,1,1,0,0])/2 / # initial_state = np.zeros(2*num_xsite*num_ysite)
+- 单元 20：def temp_fun_Evolve(gamma,total_t): / #gamma = -0.2 / #initial_state = np.ones(2*num_xsite*num_ysite)/np.sqrt(2*num_xsite*num_ysite) / #initial_state = np.array([1,1,0,0,1,1,0,0])/2 / # initial_state = np.ones(2*num_xsite*num_ysite)
+- 单元 21：#验证矩阵 / # 在单激发子空间是对易的。其它呢？双激发呢？
+- 单元 22：#print(ham22) / def matrix_to_latex(matrix): / # print(matrix_to_latex(ham22))
+- 单元 23：\begin{pmatrix}
+- 单元 25：### 3*3结构
+- 单元 26：#plt.plot(eigval.real, eigval.imag, 'o', label='Eigenvalues', markersize=8, color='blue') / # 突出显示基态 / # 添加 colorbar / # 计算所有数据的最小值和最大值 / # 创建一个 ScalarMappable 对象用于 colorbar
+- 单元 27：### 4*3
+- 单元 28：#plt.plot(eigval.real, eigval.imag, 'o', label='Eigenvalues', markersize=8, color='blue') / # 突出显示基态 / # 添加 colorbar / # 计算所有数据的最小值和最大值 / # 创建一个 ScalarMappable 对象用于 colorbar
+- 单元 29：### 4*4
+- 单元 30：#plt.plot(eigval.real, eigval.imag, 'o', label='Eigenvalues', markersize=8, color='blue') / # 突出显示基态 / # 添加 colorbar / # 计算所有数据的最小值和最大值 / # 创建一个 ScalarMappable 对象用于 colorbar
+- 单元 31：### 20*20
+- 单元 32：#plt.yscale('log')
+- 单元 33：#plt.yscale('log')
+- 单元 34：# 1. CZ门和CNOT门的关系。2. 测量的序参量。
+- 单元 35：### Qiskit量子线路
+- 单元 36：def simulate_H_evolution(t): / # 构建哈密顿量矩阵 (8x8) / # 计算时间演化算符 / # 创建量子电路并应用演化算符 / # 初始化到 |011> 态（假设 q0 是最低位）
+- 单元 38：# 初始化 q3 为 |1⟩ / #qc.cx(3,0) / # # 对 q0, q1, q2 施加 Hadamard 门 / # qc.h(0) / # qc.h(1)
+- 单元 39：def qr_haar(N): / # Step 1 / # Step 2 / # Step 3 / # Step 4
+- 单元 40：#分解演化 / # 创建量子线路并应用 U / # 使用 transpile 分解为单量子比特门和 CZ 门。 / # transpiled_qc = transpile(qc, unitary_synthesis_method='sk', basis_gates=['u3', 'cx', 'ccx'], optimization_level=2) # coupling_map=[[0, 1], [2,3], [1, 2]], # basis_gates=['u3', 'cx', 'rx', 'swap', 'iswap', 'crx', 'cry', 'crz', 'rxx', 'ryy', 'rzz', 'fsim', 'xx'], / # 打印分解后的线路
+- 单元 41：# 耗散 / def EvoFun(DELTA_T, depth_t): / #DELTA_T = 3.7/2 / #UM = np.diag([1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0]) * np.exp(-gamma*DELTA_T) # 0000,0001, 1000,1001 / #print(UM.shape,UM)
+- 单元 42：#np.savez('NH_Hamiltonian.npz', Hamiltonian=ham22) / # with np.load('NH_Hamiltonian.npz') as files: / #     ham = files['Hamiltonian'] / #     print(ham, np.diag(ham)) / # if np.allclose(ham22, ham, atol=1e-7):
+- 单元 44：#plt.ylim([0,1]) / # plt.yscale('log') / #y1 = [-(1+x)/2*np.log2((1+x)/2)-(1-x)/2*np.log2((1-x)/2) for x in r_list]
+- 单元 45：# 创建量子电路并应用演化算符 / # 创建量子电路并应用演化算符
+- 单元 46：#current_state = Statevector(current_state) / # initial_statevector=np.array([0.70710678, 0.70710678], dtype=np.complex128), / # 创建量子电路 / # 明确初始化量子比特的状态为 [0.70710678, 0.70710678]，即 1/sqrt(2) * (|0> + |1>) / # 选择设备 (GPU 或 CPU)
+- 单元 48：# from qiskit.circuit.library import RYGate / # Create a Quantum Circuit with 6 qubits and 6 classical bits / # Apply Hadamard gate on qubit 4 / # Measure qubit 5 to classical bit 0 / # Swap qubit 4 and qubit 5
+
+## workflows/vqe/Spectrum.ipynb
+- 单元 1：# import qiskit / # from qiskit import QuantumCircuit, Aer, execute / # from qiskit.circuit import Parameter / # from qiskit.algorithms.optimizers import COBYLA / # from qiskit.quantum_info import state_fidelity
+- 单元 2：# without interaction / # QWZ1.add_interaction_inter(U) / #print(temp_state[popu_indice[k]]) / # 在每个位置添加数字 / # with U interaction
+- 单元 3：# 科学计数法格式化器 / # 设置标题和标签（x和y相同） / # ax.set_ylabel(r'Site Index $\hat{n}^2_{x,y,\alpha}$') / # 设置刻度 / # n = matrix.shape[0]
+- 单元 4：## 单体
+- 单元 5：# 写入一个 NumPy 数组 / # loss = f['loss'] / # 设置图形样式 / # plt.style.use('seaborn')  # 使用seaborn风格 / # 绘制曲线，使用指定颜色和标签
+- 单元 6：## 两体
+- 单元 7：# 写入一个 NumPy 数组 / # loss = f['loss'] / # 设置图形样式 / # plt.style.use('seaborn')  # 使用seaborn风格 / # 绘制曲线，使用指定颜色和标签
+
