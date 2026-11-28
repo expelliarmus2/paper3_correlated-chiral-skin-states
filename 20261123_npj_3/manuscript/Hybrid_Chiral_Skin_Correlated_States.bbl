@@ -1,0 +1,478 @@
+\begin{thebibliography}{10}
+\urlstyle{rm}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname doiprefix\endcsname\relax\def\doiprefix{DOI: }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{RN1166}
+\bibinfo{author}{Yao, S.} \& \bibinfo{author}{Wang, Z.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Edge states and topological
+  invariants of non-hermitian systems}}.
+\newblock \emph{Physical Review Letters} \textbf{\bibinfo{volume}{121}}
+  (\bibinfo{year}{2018}).
+
+\bibitem{RN1168}
+\bibinfo{author}{Yao, S.}, \bibinfo{author}{Song, F.} \& \bibinfo{author}{Wang,
+  Z.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Non-hermitian chern bands}}.
+\newblock \emph{Physical Review Letters} \textbf{\bibinfo{volume}{121}}
+  (\bibinfo{year}{2018}).
+
+\bibitem{gong2018topological}
+\bibinfo{author}{Gong, Z.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Topological phases of non-hermitian
+  systems}}.
+\newblock \emph{Physical Review X} \textbf{\bibinfo{volume}{8}},
+  \bibinfo{pages}{031079} (\bibinfo{year}{2018}).
+
+\bibitem{kawabata2019symmetry}
+\bibinfo{author}{Kawabata, K.}, \bibinfo{author}{Shiozaki, K.},
+  \bibinfo{author}{Ueda, M.} \& \bibinfo{author}{Sato, M.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Symmetry and topology in
+  non-hermitian physics}}.
+\newblock \emph{Physical Review X} \textbf{\bibinfo{volume}{9}},
+  \bibinfo{pages}{041015} (\bibinfo{year}{2019}).
+
+\bibitem{RN1212}
+\bibinfo{author}{Zhang, K.}, \bibinfo{author}{Yang, Z.} \&
+  \bibinfo{author}{Fang, C.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Correspondence between winding
+  numbers and skin modes in non-hermitian systems}}.
+\newblock \emph{Physical Review Letters} \textbf{\bibinfo{volume}{125}}
+  (\bibinfo{year}{2020}).
+
+\bibitem{RN1214}
+\bibinfo{author}{Zhang, K.}, \bibinfo{author}{Yang, Z.} \&
+  \bibinfo{author}{Fang, C.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Universal non-hermitian skin effect
+  in two and higher dimensions}}.
+\newblock \emph{Nature Communications} \textbf{\bibinfo{volume}{13}}
+  (\bibinfo{year}{2022}).
+
+\bibitem{RN1217}
+\bibinfo{author}{Okuma, N.}, \bibinfo{author}{Kawabata, K.},
+  \bibinfo{author}{Shiozaki, K.} \& \bibinfo{author}{Sato, M.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Topological origin of non-hermitian
+  skin effects}}.
+\newblock \emph{Physical Review Letters} \textbf{\bibinfo{volume}{124}}
+  (\bibinfo{year}{2020}).
+
+\bibitem{RN1160}
+\bibinfo{author}{Zhang, X.}, \bibinfo{author}{Zhang, T.}, \bibinfo{author}{Lu,
+  M.-H.} \& \bibinfo{author}{Chen, Y.-F.}
+\newblock \bibinfo{journal}{\bibinfo{title}{A review on non-hermitian skin
+  effect}}.
+\newblock \emph{Advances in Physics: X} \textbf{\bibinfo{volume}{7}}
+  (\bibinfo{year}{2022}).
+
+\bibitem{RN1165}
+\bibinfo{author}{Xiao, L.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Non-hermitian bulk–boundary
+  correspondence in quantum dynamics}}.
+\newblock \emph{Nature Physics} \textbf{\bibinfo{volume}{16}},
+  \bibinfo{pages}{761--766} (\bibinfo{year}{2020}).
+
+\bibitem{RN1167}
+\bibinfo{author}{Xiao, L.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Observation of topological edge
+  states in parity–time-symmetric quantum walks}}.
+\newblock \emph{Nature Physics} \textbf{\bibinfo{volume}{13}},
+  \bibinfo{pages}{1117--1123} (\bibinfo{year}{2017}).
+
+\bibitem{RN1227}
+\bibinfo{author}{Ozawa, T.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Topological photonics}}.
+\newblock \emph{Reviews of Modern Physics} \textbf{\bibinfo{volume}{91}}
+  (\bibinfo{year}{2019}).
+
+\bibitem{nie2023non}
+\bibinfo{author}{Nie, W.}, \bibinfo{author}{Shi, T.}, \bibinfo{author}{Liu,
+  Y.-x.} \& \bibinfo{author}{Nori, F.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Non-hermitian waveguide cavity qed
+  with tunable atomic mirrors}}.
+\newblock \emph{Physical Review Letters} \textbf{\bibinfo{volume}{131}},
+  \bibinfo{pages}{103602} (\bibinfo{year}{2023}).
+
+\bibitem{zou2021observation}
+\bibinfo{author}{Zou, D.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Observation of hybrid higher-order
+  skin-topological effect in non-hermitian topolectrical circuits}}.
+\newblock \emph{Nature Communications} \textbf{\bibinfo{volume}{12}},
+  \bibinfo{pages}{7201} (\bibinfo{year}{2021}).
+
+\bibitem{RN2}
+\bibinfo{author}{Zhang, H.~X.}, \bibinfo{author}{Chen, T.},
+  \bibinfo{author}{Li, L.~H.}, \bibinfo{author}{Lee, C.~H.} \&
+  \bibinfo{author}{Zhang, X.~D.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Electrical circuit realization of
+  topological switching for the non-hermitian skin effect}}.
+\newblock \emph{Physical Review B} \textbf{\bibinfo{volume}{107}}
+  (\bibinfo{year}{2023}).
+
+\bibitem{RN1225}
+\bibinfo{author}{Lee, C.~H.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Topolectrical circuits}}.
+\newblock \emph{Communications Physics} \textbf{\bibinfo{volume}{1}},
+  \bibinfo{pages}{39} (\bibinfo{year}{2018}).
+
+\bibitem{RN632}
+\bibinfo{author}{Aspelmeyer, M.}, \bibinfo{author}{Kippenberg, T.~J.} \&
+  \bibinfo{author}{Marquardt, F.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Cavity optomechanics}}.
+\newblock \emph{Reviews of Modern Physics} \textbf{\bibinfo{volume}{86}},
+  \bibinfo{pages}{1391--1452} (\bibinfo{year}{2014}).
+
+\bibitem{RN1226}
+\bibinfo{author}{Xiong, H.} \& \bibinfo{author}{Wu, Y.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Fundamentals and applications of
+  optomechanically induced transparency}}.
+\newblock \emph{Applied Physics Reviews} \textbf{\bibinfo{volume}{5}}
+  (\bibinfo{year}{2018}).
+
+\bibitem{nakamura2023universal}
+\bibinfo{author}{Nakamura, D.}, \bibinfo{author}{Inaka, K.},
+  \bibinfo{author}{Okuma, N.} \& \bibinfo{author}{Sato, M.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Universal platform of point-gap
+  topological phases from topological materials}}.
+\newblock \emph{Physical Review Letters} \textbf{\bibinfo{volume}{131}},
+  \bibinfo{pages}{256602} (\bibinfo{year}{2023}).
+
+\bibitem{ma2024non}
+\bibinfo{author}{Ma, X.-R.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Non-hermitian chiral skin effect}}.
+\newblock \emph{Physical Review Research} \textbf{\bibinfo{volume}{6}},
+  \bibinfo{pages}{013213} (\bibinfo{year}{2024}).
+
+\bibitem{schindler2023hermitian}
+\bibinfo{author}{Schindler, F.}, \bibinfo{author}{Gu, K.},
+  \bibinfo{author}{Lian, B.} \& \bibinfo{author}{Kawabata, K.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Hermitian bulk--non-hermitian
+  boundary correspondence}}.
+\newblock \emph{PRX Quantum} \textbf{\bibinfo{volume}{4}},
+  \bibinfo{pages}{030315} (\bibinfo{year}{2023}).
+
+\bibitem{lee2019hybrid}
+\bibinfo{author}{Lee, C.~H.}, \bibinfo{author}{Li, L.} \&
+  \bibinfo{author}{Gong, J.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Hybrid higher-order
+  skin-topological modes in nonreciprocal systems}}.
+\newblock \emph{Physical review letters} \textbf{\bibinfo{volume}{123}},
+  \bibinfo{pages}{016805} (\bibinfo{year}{2019}).
+
+\bibitem{RN1221}
+\bibinfo{author}{Li, Y.~H.}, \bibinfo{author}{Liang, C.},
+  \bibinfo{author}{Wang, C.~Y.}, \bibinfo{author}{Lu, C.~C.} \&
+  \bibinfo{author}{Liu, Y.~C.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Gain-loss-induced hybrid
+  skin-topological effect}}.
+\newblock \emph{Physical Review Letters} \textbf{\bibinfo{volume}{128}}
+  (\bibinfo{year}{2022}).
+
+\bibitem{mak2024statics}
+\bibinfo{author}{M{\'a}k, J.}, \bibinfo{author}{Bhaseen, M.} \&
+  \bibinfo{author}{Pal, A.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Statics and dynamics of
+  non-hermitian many-body localization}}.
+\newblock \emph{Communications Physics} \textbf{\bibinfo{volume}{7}},
+  \bibinfo{pages}{92} (\bibinfo{year}{2024}).
+
+\bibitem{hamazaki2019non}
+\bibinfo{author}{Hamazaki, R.}, \bibinfo{author}{Kawabata, K.} \&
+  \bibinfo{author}{Ueda, M.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Non-hermitian many-body
+  localization}}.
+\newblock \emph{Physical review letters} \textbf{\bibinfo{volume}{123}},
+  \bibinfo{pages}{090603} (\bibinfo{year}{2019}).
+
+\bibitem{abanin2019colloquium}
+\bibinfo{author}{Abanin, D.~A.}, \bibinfo{author}{Altman, E.},
+  \bibinfo{author}{Bloch, I.} \& \bibinfo{author}{Serbyn, M.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Colloquium: Many-body localization,
+  thermalization, and entanglement}}.
+\newblock \emph{Reviews of Modern Physics} \textbf{\bibinfo{volume}{91}},
+  \bibinfo{pages}{021001} (\bibinfo{year}{2019}).
+
+\bibitem{alet2018many}
+\bibinfo{author}{Alet, F.} \& \bibinfo{author}{Laflorencie, N.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Many-body localization: An
+  introduction and selected topics}}.
+\newblock \emph{Comptes Rendus Physique} \textbf{\bibinfo{volume}{19}},
+  \bibinfo{pages}{498--525} (\bibinfo{year}{2018}).
+
+\bibitem{Kohn1999}
+\bibinfo{author}{Kohn, W.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Nobel lecture : Electronic
+  structure of matter—wave functions and density functionals}}.
+\newblock \emph{Review Modern of Physics} \textbf{\bibinfo{volume}{71}},
+  \bibinfo{pages}{1253} (\bibinfo{year}{1999}).
+
+\bibitem{skinner2019measurement}
+\bibinfo{author}{Skinner, B.}, \bibinfo{author}{Ruhman, J.} \&
+  \bibinfo{author}{Nahum, A.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Measurement-induced phase
+  transitions in the dynamics of entanglement}}.
+\newblock \emph{Physical Review X} \textbf{\bibinfo{volume}{9}},
+  \bibinfo{pages}{031009} (\bibinfo{year}{2019}).
+
+\bibitem{nahum2017quantum}
+\bibinfo{author}{Nahum, A.}, \bibinfo{author}{Ruhman, J.},
+  \bibinfo{author}{Vijay, S.} \& \bibinfo{author}{Haah, J.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Quantum entanglement growth under
+  random unitary dynamics}}.
+\newblock \emph{Physical Review X} \textbf{\bibinfo{volume}{7}},
+  \bibinfo{pages}{031016} (\bibinfo{year}{2017}).
+
+\bibitem{gullans2020dynamical}
+\bibinfo{author}{Gullans, M.~J.} \& \bibinfo{author}{Huse, D.~A.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Dynamical purification phase
+  transition induced by quantum measurements}}.
+\newblock \emph{Physical Review X} \textbf{\bibinfo{volume}{10}},
+  \bibinfo{pages}{041020} (\bibinfo{year}{2020}).
+
+\bibitem{koh2023measurement}
+\bibinfo{author}{Koh, J.~M.}, \bibinfo{author}{Sun, S.-N.},
+  \bibinfo{author}{Motta, M.} \& \bibinfo{author}{Minnich, A.~J.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Measurement-induced entanglement
+  phase transition on a superconducting quantum processor with mid-circuit
+  readout}}.
+\newblock \emph{Nature Physics} \textbf{\bibinfo{volume}{19}},
+  \bibinfo{pages}{1314--1319} (\bibinfo{year}{2023}).
+
+\bibitem{li2023cross}
+\bibinfo{author}{Li, Y.}, \bibinfo{author}{Zou, Y.}, \bibinfo{author}{Glorioso,
+  P.}, \bibinfo{author}{Altman, E.} \& \bibinfo{author}{Fisher, M.~P.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Cross entropy benchmark for
+  measurement-induced phase transitions}}.
+\newblock \emph{Physical Review Letters} \textbf{\bibinfo{volume}{130}},
+  \bibinfo{pages}{220404} (\bibinfo{year}{2023}).
+
+\bibitem{choi2020quantum}
+\bibinfo{author}{Choi, S.}, \bibinfo{author}{Bao, Y.}, \bibinfo{author}{Qi,
+  X.-L.} \& \bibinfo{author}{Altman, E.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Quantum error correction in
+  scrambling dynamics and measurement-induced phase transition}}.
+\newblock \emph{Physical Review Letters} \textbf{\bibinfo{volume}{125}},
+  \bibinfo{pages}{030505} (\bibinfo{year}{2020}).
+
+\bibitem{minato2022fate}
+\bibinfo{author}{Minato, T.}, \bibinfo{author}{Sugimoto, K.},
+  \bibinfo{author}{Kuwahara, T.} \& \bibinfo{author}{Saito, K.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Fate of measurement-induced phase
+  transition in long-range interactions}}.
+\newblock \emph{Physical review letters} \textbf{\bibinfo{volume}{128}},
+  \bibinfo{pages}{010603} (\bibinfo{year}{2022}).
+
+\bibitem{yang2025bridging}
+\bibinfo{author}{Yang, F.}, \bibinfo{author}{Wang, X.-B.} \&
+  \bibinfo{author}{Chen, T.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Bridging measurement-induced phase
+  transition and quantum error correction in monitored quantum circuits with
+  many-body measurements}}.
+\newblock \emph{Physical Review B} \textbf{\bibinfo{volume}{111}},
+  \bibinfo{pages}{064308} (\bibinfo{year}{2025}).
+
+\bibitem{potter2022entanglement}
+\bibinfo{author}{Potter, A.~C.} \& \bibinfo{author}{Vasseur, R.}
+\newblock \bibinfo{title}{Entanglement dynamics in hybrid quantum circuits}.
+\newblock In \emph{\bibinfo{booktitle}{Entanglement in Spin Chains: From Theory
+  to Quantum Technology Applications}}, \bibinfo{pages}{211--249}
+  (\bibinfo{publisher}{Springer}, \bibinfo{year}{2022}).
+
+\bibitem{iqbal2024non}
+\bibinfo{author}{Iqbal, M.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Non-abelian topological order and
+  anyons on a trapped-ion processor}}.
+\newblock \emph{Nature} \textbf{\bibinfo{volume}{626}},
+  \bibinfo{pages}{505--511} (\bibinfo{year}{2024}).
+
+\bibitem{zhang2025physics}
+\bibinfo{author}{Zhang, Q.} \& \bibinfo{author}{Wu, B.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Physics and computation: A
+  perspective from non-hermitian quantum computer}}.
+\newblock \emph{arXiv preprint arXiv:2506.18012}  (\bibinfo{year}{2025}).
+
+\bibitem{fleckenstein2022non}
+\bibinfo{author}{Fleckenstein, C.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Non-hermitian topology in monitored
+  quantum circuits}}.
+\newblock \emph{Physical Review Research} \textbf{\bibinfo{volume}{4}},
+  \bibinfo{pages}{L032026} (\bibinfo{year}{2022}).
+
+\bibitem{koh2024realization}
+\bibinfo{author}{Koh, J.~M.}, \bibinfo{author}{Tai, T.} \&
+  \bibinfo{author}{Lee, C.~H.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Realization of higher-order
+  topological lattices on a quantum computer}}.
+\newblock \emph{Nature Communications} \textbf{\bibinfo{volume}{15}},
+  \bibinfo{pages}{5807} (\bibinfo{year}{2024}).
+
+\bibitem{deng2022observing}
+\bibinfo{author}{Deng, J.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Observing the quantum topology of
+  light}}.
+\newblock \emph{Science} \textbf{\bibinfo{volume}{378}},
+  \bibinfo{pages}{966--971} (\bibinfo{year}{2022}).
+
+\bibitem{zhao2025}
+\bibinfo{author}{Zhao, Q.}, \bibinfo{author}{Zhou, Y.} \&
+  \bibinfo{author}{Childs, A.~M.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Entanglement accelerates quantum
+  simulation}}.
+\newblock \emph{Nature Physics} \bibinfo{pages}{1--8} (\bibinfo{year}{2025}).
+
+\bibitem{shen2025observation}
+\bibinfo{author}{Shen, R.}, \bibinfo{author}{Chen, T.}, \bibinfo{author}{Yang,
+  B.} \& \bibinfo{author}{Lee, C.~H.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Observation of the non-hermitian
+  skin effect and fermi skin on a digital quantum computer}}.
+\newblock \emph{Nature Communications} \textbf{\bibinfo{volume}{16}},
+  \bibinfo{pages}{1340} (\bibinfo{year}{2025}).
+
+\bibitem{shen2024enhanced}
+\bibinfo{author}{Shen, R.}, \bibinfo{author}{Qin, F.},
+  \bibinfo{author}{Desaules, J.-Y.}, \bibinfo{author}{Papi{\'c}, Z.} \&
+  \bibinfo{author}{Lee, C.~H.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Enhanced many-body quantum scars
+  from the non-hermitian fock skin effect}}.
+\newblock \emph{Physical Review Letters} \textbf{\bibinfo{volume}{133}},
+  \bibinfo{pages}{216601} (\bibinfo{year}{2024}).
+
+\bibitem{shimomura2024general}
+\bibinfo{author}{Shimomura, K.} \& \bibinfo{author}{Sato, M.}
+\newblock \bibinfo{journal}{\bibinfo{title}{General criterion for non-hermitian
+  skin effects and application: Fock space skin effects in many-body systems}}.
+\newblock \emph{Physical Review Letters} \textbf{\bibinfo{volume}{133}},
+  \bibinfo{pages}{136502} (\bibinfo{year}{2024}).
+
+\bibitem{qi2006topological}
+\bibinfo{author}{Qi, X.-L.}, \bibinfo{author}{Wu, Y.-S.} \&
+  \bibinfo{author}{Zhang, S.-C.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Topological quantization of the
+  spin hall effect in two-dimensional paramagnetic semiconductors}}.
+\newblock \emph{Physical Review B—Condensed Matter and Materials Physics}
+  \textbf{\bibinfo{volume}{74}}, \bibinfo{pages}{085308}
+  (\bibinfo{year}{2006}).
+
+\bibitem{coecke2008povms}
+\bibinfo{author}{Coecke, B.} \& \bibinfo{author}{Paquette, {\'E}.~O.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Povms and naimark's theorem without
+  sums}}.
+\newblock \emph{Electronic Notes in Theoretical Computer Science}
+  \textbf{\bibinfo{volume}{210}}, \bibinfo{pages}{15--31}
+  (\bibinfo{year}{2008}).
+
+\bibitem{nielsen2001quantum}
+\bibinfo{author}{Nielsen, M.~A.} \& \bibinfo{author}{Chuang, I.~L.}
+\newblock \emph{\bibinfo{title}{Quantum computation and quantum information}},
+  vol.~\bibinfo{volume}{2} (\bibinfo{publisher}{Cambridge university press
+  Cambridge}, \bibinfo{year}{2001}).
+
+\bibitem{guo2021observation}
+\bibinfo{author}{Guo, Q.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Observation of energy-resolved
+  many-body localization}}.
+\newblock \emph{Nature Physics} \textbf{\bibinfo{volume}{17}},
+  \bibinfo{pages}{234--239} (\bibinfo{year}{2021}).
+
+\bibitem{preskill2018quantum}
+\bibinfo{author}{Preskill, J.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Quantum computing in the nisq era
+  and beyond}}.
+\newblock \emph{Quantum} \textbf{\bibinfo{volume}{2}}, \bibinfo{pages}{79}
+  (\bibinfo{year}{2018}).
+
+\bibitem{wu2021strong}
+\bibinfo{author}{Wu, Y.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Strong quantum computational
+  advantage using a superconducting quantum processor}}.
+\newblock \emph{Physical review letters} \textbf{\bibinfo{volume}{127}},
+  \bibinfo{pages}{180501} (\bibinfo{year}{2021}).
+
+\bibitem{zhong2020quantum}
+\bibinfo{author}{Zhong, H.-S.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Quantum computational advantage
+  using photons}}.
+\newblock \emph{Science} \textbf{\bibinfo{volume}{370}},
+  \bibinfo{pages}{1460--1463} (\bibinfo{year}{2020}).
+
+\bibitem{madsen2022quantum}
+\bibinfo{author}{Madsen, L.~S.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Quantum computational advantage
+  with a programmable photonic processor}}.
+\newblock \emph{Nature} \textbf{\bibinfo{volume}{606}}, \bibinfo{pages}{75--81}
+  (\bibinfo{year}{2022}).
+
+\bibitem{zhu2024dynamically}
+\bibinfo{author}{Zhu, H.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{A dynamically programmable quantum
+  photonic microprocessor for graph computation}}.
+\newblock \emph{Laser \& Photonics Reviews} \textbf{\bibinfo{volume}{18}},
+  \bibinfo{pages}{2300304} (\bibinfo{year}{2024}).
+
+\bibitem{zhu2024large}
+\bibinfo{author}{Zhu, H.~H.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Large-scale photonic network with
+  squeezed vacuum states for molecular vibronic spectroscopy}}.
+\newblock \emph{Nature communications} \textbf{\bibinfo{volume}{15}},
+  \bibinfo{pages}{6057} (\bibinfo{year}{2024}).
+
+\bibitem{paesani2017experimental}
+\bibinfo{author}{Paesani, S.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Experimental bayesian quantum phase
+  estimation on a silicon photonic chip}}.
+\newblock \emph{Physical review letters} \textbf{\bibinfo{volume}{118}},
+  \bibinfo{pages}{100503} (\bibinfo{year}{2017}).
+
+\bibitem{qiang2018large}
+\bibinfo{author}{Qiang, X.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Large-scale silicon quantum
+  photonics implementing arbitrary two-qubit processing}}.
+\newblock \emph{Nature photonics} \textbf{\bibinfo{volume}{12}},
+  \bibinfo{pages}{534--539} (\bibinfo{year}{2018}).
+
+\bibitem{chi2022programmable}
+\bibinfo{author}{Chi, Y.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{A programmable qudit-based quantum
+  processor}}.
+\newblock \emph{Nature communications} \textbf{\bibinfo{volume}{13}},
+  \bibinfo{pages}{1166} (\bibinfo{year}{2022}).
+
+\bibitem{wang2018multidimensional}
+\bibinfo{author}{Wang, J.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Multidimensional quantum
+  entanglement with large-scale integrated optics}}.
+\newblock \emph{Science} \textbf{\bibinfo{volume}{360}},
+  \bibinfo{pages}{285--291} (\bibinfo{year}{2018}).
+
+\bibitem{yu2025comprehensive}
+\bibinfo{author}{Yu, D.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Comprehensive review on
+  developments of synthetic dimensions}}.
+\newblock \emph{Photonics Insights} \textbf{\bibinfo{volume}{4}},
+  \bibinfo{pages}{R06--R06} (\bibinfo{year}{2025}).
+
+\bibitem{hoch2025quantum}
+\bibinfo{author}{Hoch, F.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Quantum machine learning with
+  adaptive boson sampling via post-selection}}.
+\newblock \emph{Nature Communications} \textbf{\bibinfo{volume}{16}},
+  \bibinfo{pages}{902} (\bibinfo{year}{2025}).
+
+\bibitem{carolan2020variational}
+\bibinfo{author}{Carolan, J.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Variational quantum unsampling on a
+  quantum photonic processor}}.
+\newblock \emph{Nature Physics} \textbf{\bibinfo{volume}{16}},
+  \bibinfo{pages}{322--327} (\bibinfo{year}{2020}).
+
+\bibitem{arnoldi1951principle}
+\bibinfo{author}{Arnoldi, W.~E.}
+\newblock \bibinfo{journal}{\bibinfo{title}{The principle of minimized
+  iterations in the solution of the matrix eigenvalue problem}}.
+\newblock \emph{Quarterly of applied mathematics} \textbf{\bibinfo{volume}{9}},
+  \bibinfo{pages}{17--29} (\bibinfo{year}{1951}).
+
+\end{thebibliography}
